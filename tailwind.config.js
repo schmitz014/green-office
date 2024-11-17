@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        'primary-green': '#2a861d',
+        'secondary-green': '#22611a',
       },
     },
   },
