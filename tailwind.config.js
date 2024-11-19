@@ -7,8 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-green': '#2a861d',
-        'secondary-green': '#22611a',
+        "color-white": "#fff9f9",
+        "light-green": "#88b257",
+        "medium-green": "#4a701c",
+        "dark-green": "#284703",
+        "olive-green": "#434d36",
+        "soft-green": "#555d4c",
+      },
+      fontFamily: {
+        "poppins": ["Poppins", "sans-serif"],
       },
     },
   },
