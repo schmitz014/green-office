@@ -4,7 +4,7 @@ export default function PageNotFound() {
     return (
         <div className="text-center font-poppins m-10">
             <div>
-                <div className="flex items-center justify-center gap-5 text-dark-green text-9xl">
+                <div className="flex items-center justify-center gap-5 text-dark-green text-7xl xl:text-9xl">
                     <BsEmojiDizzyFill />
                     <h1 className="font-bold">404</h1>
                 </div>
