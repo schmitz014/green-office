@@ -8,7 +8,7 @@ export default function PageNotFound() {
                     <BsEmojiDizzyFill />
                     <h1 className="font-bold">404</h1>
                 </div>
-                <h2 className="text-3xl font-semibold text-dark-green mt-10">Página não encontrada</h2>
+                <h2 className="text-3xl font-semibold text-dark-green mt-10">Página não encontrada!</h2>
             </div>
         </div>
     );
