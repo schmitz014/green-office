@@ -14,6 +14,7 @@ import Biomassa from './pages/Biomassa.jsx'
 import Geotermica from './pages/Geotermica.jsx'
 import Hidreletrica from './pages/Hidreletrica.jsx'
 import Tech from './pages/Tech.jsx'
+import Collaborate from './pages/Collaborate.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       { path: 'energia/geotermica', element: <Geotermica /> },
       { path: 'energia/hidreletrica', element: <Hidreletrica /> },
       { path: 'tecnologia', element: <Tech /> },
+      { path: 'colabore', element: <Collaborate /> },
       { path: '*', element: <PageNotFound /> }
     ]
   }
