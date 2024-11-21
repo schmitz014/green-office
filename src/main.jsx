@@ -7,6 +7,7 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import Need from './pages/Need.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
+import Energy from './pages/Energy.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'necessidade', element: <Need /> },
+      { path: 'energia', element: <Energy /> },
       { path: '*', element: <PageNotFound /> }
     ]
 
