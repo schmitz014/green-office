@@ -6,7 +6,7 @@ export default function Footer() {
             <footer className="bg-medium-green text-color-white font-poppins p-5">
                 <div className="flex justify-between">
                     <div>
-                        <img className="w-10 xl:w-20" src="/public/Logo.svg" alt="Logo da GreenOffice" />
+                        <img className="w-10 xl:w-20" src="/Logo.svg" alt="Logo da GreenOffice" />
                         <span className="flex flex-col text-sm xl:text-2xl text-wrap text-left xl:font-semibold">
                             Faça parte da comunidade do Green Office e ajude a preservar o meio ambiente.
                         </span>

@@ -14,7 +14,7 @@ export default function Header() {
             <header className="bg-medium-green text-color-white font-poppins">
                 <nav className="flex items-center justify-between mx-5">
                     <div className="flex items-center py-5 gap-5">
-                        <img src="/public/Logo.svg" alt="Logo do Green Office" className="w-10 md:w-20 xl:w-28"/>
+                        <img src="/Logo.svg" alt="Logo do Green Office" className="w-10 md:w-20 xl:w-28"/>
                         <h1 className="text-2xl md:text-5xl xl:text-6xl font-bold">GREENOFFICE</h1>
                     </div>
                     <div>
