@@ -1,4 +1,4 @@
-import ApexCharts from "apexcharts";
+import DonutChart from "../components/DonutChart";
 import TitleDark from "../components/TitleDark";
 
 export default function Need() {
@@ -11,6 +11,7 @@ export default function Need() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error cum voluptate, ducimus illo voluptas, obcaecati inventore eos veritatis atque fuga cumque maiores doloremque repudiandae?</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti suscipit iusto sed ipsa voluptatem. Voluptatum!</p>
                 </div>
+                <DonutChart />
             </div>
         </>
     );
