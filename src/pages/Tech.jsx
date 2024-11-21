@@ -1,4 +1,4 @@
-import TechCarouselCard from "../components/TechCarouselCard";
+import TechCarouselCard from "../components/TechCard";
 import TitleDark from "../components/TitleDark";
 
 export default function Tech() {
