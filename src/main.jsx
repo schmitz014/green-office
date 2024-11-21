@@ -9,6 +9,7 @@ import Need from './pages/Need.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import Energy from './pages/Energy.jsx'
 import Solar from './pages/Solar.jsx'
+import Eolica from './pages/Eolica.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: 'necessidade', element: <Need /> },
       { path: 'energia', element: <Energy /> },
       { path: 'energia/solar', element: <Solar /> },
+      { path: 'energia/eolica', element: <Eolica /> },
       { path: '*', element: <PageNotFound /> }
     ]
   }
