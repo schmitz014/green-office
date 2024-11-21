@@ -10,6 +10,7 @@ import PageNotFound from './pages/PageNotFound.jsx'
 import Energy from './pages/Energy.jsx'
 import Solar from './pages/Solar.jsx'
 import Eolica from './pages/Eolica.jsx'
+import Biomassa from './pages/Biomassa.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: 'energia', element: <Energy /> },
       { path: 'energia/solar', element: <Solar /> },
       { path: 'energia/eolica', element: <Eolica /> },
+      { path: 'energia/biomassa', element: <Biomassa /> },
       { path: '*', element: <PageNotFound /> }
     ]
   }
