@@ -1,11 +1,12 @@
 import EnergyType from "../components/EnergyType";
+import ReductionButton from "../components/ReductionButton";
 import Title from "../components/Title";
 
 export default function Energy() {
     return (
         <>
             <Title title="Energia" />
-            <div className="font-poppins font-semibold">
+            <div className="font-poppins font-semibold flex items-center flex-col">
                 <p className="text-center text-xl px-16">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sapiente odit velit blanditiis quibusdam? Ea assumenda nam pariatur dignissimos maiores?
                 </p>
@@ -16,6 +17,8 @@ export default function Energy() {
                     <EnergyType img={"/img/Energies/geothermal.jpg"} alt={"Foto Energia Geotérmica"} subtitle={"Geotérmica"} link={"geotermica"}/>
                     <EnergyType img={"/img/Energies/hydroeletric.jpg"} alt={"Foto Energia Hidrelétrica"} subtitle={"Hidrelétrica"} link={"hidreletrica"}/>
                 </div>
+
+                <ReductionButton />
             </div>
         </>
     )
