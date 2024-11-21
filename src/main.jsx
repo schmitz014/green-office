@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 
+import { ThemeProvider } from "@material-tailwind/react";
+
 import Home from './pages/Home.jsx'
 import Need from './pages/Need.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
@@ -38,6 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </StrictMode>
 )
