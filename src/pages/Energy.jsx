@@ -9,7 +9,7 @@ export default function Energy() {
                 <p className="text-center text-xl px-16">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste sapiente odit velit blanditiis quibusdam? Ea assumenda nam pariatur dignissimos maiores?
                 </p>
-                <div className="flex">
+                <div className="flex flex-col xl:flex-row justify-center items-center m-5">
                     <EnergyType img={"/public/img/Energies/solar.jpg"} alt={"Foto Energia Solar"} subtitle={"Solar"} link={""}/>
                     <EnergyType img={"/public/img/Energies/wind.jpg"} alt={"Foto Energia Eólica"} subtitle={"Eólica"} link={""}/>
                     <EnergyType img={"/public/img/Energies/biomass.jpg"} alt={"Foto Energia Biomassa"} subtitle={"Biomassa"} link={""}/>
