@@ -12,6 +12,7 @@ import Solar from './pages/Solar.jsx'
 import Eolica from './pages/Eolica.jsx'
 import Biomassa from './pages/Biomassa.jsx'
 import Geotermica from './pages/Geotermica.jsx'
+import Hidreletrica from './pages/Hidreletrica.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: 'energia/eolica', element: <Eolica /> },
       { path: 'energia/biomassa', element: <Biomassa /> },
       { path: 'energia/geotermica', element: <Geotermica /> },
+      { path: 'energia/hidreletrica', element: <Hidreletrica /> },
       { path: '*', element: <PageNotFound /> }
     ]
   }
