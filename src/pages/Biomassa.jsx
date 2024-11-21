@@ -1,3 +1,4 @@
+import BackButton from "../components/BackButton";
 import Title from "../components/Title";
 
 export default function Biomassa() {
@@ -9,6 +10,9 @@ export default function Biomassa() {
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, voluptate! Ea maxime porro animi voluptas, ullam officia culpa maiores praesentium veniam, placeat itaque ipsum possimus ducimus ipsa dolorem, temporibus modi?
                 </p>    
+            </div>
+            <div className="flex justify-center items-center">
+                <BackButton />
             </div>
         </>
     )
