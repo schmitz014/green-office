@@ -13,7 +13,7 @@ export default function Energy() {
                     <EnergyType img={"/img/Energies/solar.jpg"} alt={"Foto Energia Solar"} subtitle={"Solar"} link={"solar"}/>
                     <EnergyType img={"/img/Energies/wind.jpg"} alt={"Foto Energia Eólica"} subtitle={"Eólica"} link={"eolica"}/>
                     <EnergyType img={"/img/Energies/biomass.jpg"} alt={"Foto Energia Biomassa"} subtitle={"Biomassa"} link={"biomassa"}/>
-                    <EnergyType img={"/img/Energies/geothermal.jpg"} alt={"Foto Energia Geotérmica"} subtitle={"Geotérmica"} link={""}/>
+                    <EnergyType img={"/img/Energies/geothermal.jpg"} alt={"Foto Energia Geotérmica"} subtitle={"Geotérmica"} link={"geotermica"}/>
                     <EnergyType img={"/img/Energies/hydroeletric.jpg"} alt={"Foto Energia Hidrelétrica"} subtitle={"Hidrelétrica"} link={""}/>
                 </div>
             </div>
