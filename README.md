@@ -51,9 +51,7 @@ Sinta-se à vontade para bifurcar o projeto e enviar pull requests. Por favor, g
 
 ## 📎 Autores
 
-Eduardo Dallabella Lima - 556803
-Heloísa Real - 554535
-Pedro Schmitz - 555758
+Eduardo Dallabella Lima - 556803 | Heloísa Real - 554535 | Pedro Schmitz - 555758
 
 ## 📝 Licença
 
