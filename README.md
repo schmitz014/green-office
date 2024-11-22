@@ -49,6 +49,12 @@ Ferramenta de build e bundling super rápida, utilizada para desenvolvimento e p
 
 Sinta-se à vontade para bifurcar o projeto e enviar pull requests. Por favor, garanta que suas mudanças estejam alinhadas com os objetivos de sustentabilidade do projeto!
 
+## 📎 Autores
+
+Eduardo Dallabella Lima - 556803
+Heloísa Real - 554535
+Pedro Schmitz - 555758
+
 ## 📝 Licença
 
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

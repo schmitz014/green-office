@@ -8,7 +8,7 @@ export default function Solar() {
             <div className="font-poppins font-semibold m-10 flex flex-col xl:flex-row gap-5 xl:text-4xl xl:text-right">
                 <img src="/img/Energies/solar.jpg" alt="Foto Energia Solar" className="xl:w-2/4 rounded-xl"/>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, voluptate! Ea maxime porro animi voluptas, ullam officia culpa maiores praesentium veniam, placeat itaque ipsum possimus ducimus ipsa dolorem, temporibus modi?
+                    A energia solar é uma fonte renovável que aproveita a luz do sol para gerar eletricidade. É uma solução eficiente e sustentável, que pode ser instalada em residências, empresas e grandes plantas solares.
                 </p>    
             </div>
             <div className="flex justify-center items-center">

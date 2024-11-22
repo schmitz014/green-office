@@ -8,8 +8,8 @@ export default function Need() {
             <div className="text-xl xl:text-2xl font-poppins font-medium">
                 <TitleDark title="Necessidade" />
                 <div className="p-10 xl:p-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error cum voluptate, ducimus illo voluptas, obcaecati inventore eos veritatis atque fuga cumque maiores doloremque repudiandae?</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti suscipit iusto sed ipsa voluptatem. Voluptatum!</p>
+                    <p>O projeto Green Office tem como objetivo promover práticas sustentáveis no ambiente de trabalho, incentivando a redução do consumo de recursos naturais e a adoção de hábitos ecologicamente corretos.</p>
+                    <p className="mt-5 font-bold">Veja o exemplo de monitoramento abaixo:</p>
                 </div>
                 <DonutChart />
             </div>

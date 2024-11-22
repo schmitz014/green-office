@@ -30,7 +30,7 @@ export default function Collaborate() {
             <Title title="Colabore" />
             <div className="flex flex-col justify-center items-center m-5 font-poppins gap-5">
                 <p className='text-xl font-medium text-center text-wrap px-10'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam cupiditate reprehenderit enim obcaecati fugit unde rem quia delectus, fuga repudiandae, tempore adipisci iusto? Fugit voluptatibus nobis at repellendus ut!
+                    Reduza o consumo de energia em casa, aproveite ao máximo a luz natural e opte por produtos de empresas que investem em energia limpa. Pequenas ações individuais podem gerar grandes impactos coletivos.
                 </p>
                 <Carousel className="rounded-xl" prevArrow={({ handlePrev }) => (
                     <IconButton variant="text" onClick={handlePrev} className="!absolute top-2/4 left-4 -translate-y-2/4">
@@ -50,7 +50,7 @@ export default function Collaborate() {
                         <img src="/img/Carousel/kissing-birds.jpg" alt="Casal de pássaros se beijando" className="h-96 w-full object-cover"/>
                         <div className="absolute inset-0 flex items-center justify-center font-poppins m-20">
                             <p className="text-color-white text-md xl:text-2xl font-bold bg-black bg-opacity-50 p-4 rounded">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam ea dolorem architecto maiores dolores reiciendis ad ipsa fuga sint.
+                                Preserve a biodiversidade ao plantar árvores nativas e criar habitats para a fauna local. Pequenas ações podem fazer uma grande diferença na conservação do meio ambiente.
                             </p>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Collaborate() {
                         <img src="/img/Carousel/people-planting.jpg" alt="Pessoas plantando" className="h-96 w-full object-cover"/>
                         <div className="absolute inset-0 flex items-center justify-center font-poppins m-20">
                             <p className="text-color-white text-md xl:text-2xl font-bold bg-black bg-opacity-50 p-4 rounded">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam ea dolorem architecto maiores dolores reiciendis ad ipsa fuga sint.
+                                Participe de iniciativas comunitárias de plantio e ajude a restaurar áreas degradadas. Juntos, podemos criar um ambiente mais verde e saudável para todos.
                             </p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export default function Collaborate() {
                         <img src="/img/Carousel/recycling.jpg" alt="Pessoas reciclando" className="h-96 w-full object-cover"/>
                         <div className="absolute inset-0 flex items-center justify-center font-poppins m-20">
                             <p className="text-color-white text-md xl:text-2xl font-bold bg-black bg-opacity-50 p-4 rounded">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam ea dolorem architecto maiores dolores reiciendis ad ipsa fuga sint.
+                                Reduza, reutilize e recicle. Adote práticas sustentáveis no seu dia a dia e contribua para a diminuição do lixo e a preservação dos recursos naturais.
                             </p>
                         </div>
                     </div>
